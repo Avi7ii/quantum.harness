@@ -4,6 +4,15 @@ Problem-solving harness for quantum many-body lattice problems, ground-state and
 
 **Audience.** This file is user-facing — loaded into every harness session. Dev-side scaffolding (milestones, design logs) lives under `docs/`, never inlined here.
 
+## Contribution Repository
+
+- The first pull-request target for project changes is
+  `https://github.com/Avi7ii/quantum.harness`.
+- Before pushing the same changes or opening a pull request against another
+  repository, submit them to this repository first.
+- Pushing commits or opening a public pull request still requires explicit user
+  confirmation at the time of the outward-facing action.
+
 ## Core Harness Philosophy
 
 The harness is fixed at runtime. Users encounter a stable system; only the user learns — by being guided through the workflow in Superpowers brainstorming style, feeling each decision as it's made, with the reports as the durable record. Harness changes happen in dev cycles, never during user sessions.
